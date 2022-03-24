@@ -1,0 +1,44 @@
+{
+	"intents":[
+		{
+			"tag":"greeting",
+			"patterns":["hello","hi", "hey","wake up","jarvis"
+			],
+			"responses":[""]},
+		{
+			"tag":"create_note",
+			"patterns":["Please create a note","New note", "Create a note","I want to create a note"
+			],
+			"responses":[""]},
+		{
+			"tag":"add_todo",
+			"patterns":["I want to add a todo","add a new todo", "new item on my todo list"
+			],
+			"responses":[""]},
+		{
+			"tag":"show_todo",
+			"patterns":["Show my today's tasks", "show my todo list","what are my todos", "what is my todo list"
+			],
+			"responses":[""]},
+		{
+			"tag":"youtube",
+			"patterns":["play youtube", "open youtube","youtube", "play video on youtube"
+			],
+			"responses":[""]},
+		{
+			"tag":"web",
+			"patterns":["search on the web", "jarvis make a search","search this", "search on google"
+			],
+			"responses":[""]},
+		{
+			"tag":"send_email",
+			"patterns":["an email", "an email message "
+			],
+			"responses":[""]},
+		{
+			"tag":"exit",
+			"patterns":["Bye", "Stop", "quit", "I want to quit", "Goodbye", "I have to go"
+			],
+			"responses":[""]}
+	]
+}
