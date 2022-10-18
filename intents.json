@@ -1,5 +1,6 @@
 {
 	"intents":[
+	
 		{
 			"tag":"greeting",
 			"patterns":["hello","hi", "hey","wake up","jarvis"
@@ -32,13 +33,31 @@
 			"responses":[""]},
 		{
 			"tag":"send_email",
-			"patterns":["an email", "an email message "
+			"patterns":["email", "email message ", "send email"
 			],
 			"responses":[""]},
 		{
-			"tag":"exit",
-			"patterns":["Bye", "Stop", "quit", "I want to quit", "Goodbye", "I have to go"
+			"tag":"see_you",
+			"patterns":["see you later", "meet you later", "I have to go"
+			],
+			"responses":[""]},
+		{
+			"tag":"google_meet",
+			"patterns":["join the meeting", "google meet", "join my meeting"
+			],
+			"responses":[""]},
+
+		{
+			"tag":"chat_box",
+			"patterns":["write a chat", "type in the chat box", "jarvis please write something in chat"
+			],
+			"responses":[""]},
+
+		{
+			"tag":"leave_meet",
+			"patterns":["leave the meeting", "end the meeting", "jarvis it seems boring leave the meet"
 			],
 			"responses":[""]}
+		
 	]
 }
